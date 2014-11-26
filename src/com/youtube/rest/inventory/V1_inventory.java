@@ -22,12 +22,13 @@ public class V1_inventory {
 
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	public String returnAllPcParts() throws Exception {
+	public Response returnAllPcParts() throws Exception {
 		
 		PreparedStatement query = null;
 		Connection conn = null;
 		String returnString = null;
-				
+		Response rb = null;
+		
 		try {
 			
 			conn =MySQLaccess.MySQLep3Conn().getConnection();
@@ -43,7 +44,7 @@ public class V1_inventory {
 			//json = dao.queryAllPcParts();
 			returnString = json.toString();
 			
-			//rb = Response.ok(returnString).build();
+			rb = Response.ok(returnString).build();
 			
 		}
 		catch (Exception e) {
@@ -54,6 +55,6 @@ public class V1_inventory {
 			if (conn !=null) conn.close();
 		}
 		
-		return returnString;
+		return rb;
 	}
 }
