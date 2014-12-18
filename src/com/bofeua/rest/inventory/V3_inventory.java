@@ -1,4 +1,4 @@
-package com.youtube.rest.inventory;
+package com.bofeua.rest.inventory;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
@@ -13,7 +13,7 @@ import javax.ws.rs.core.Response;
 import org.codehaus.jettison.json.JSONArray;
 import org.codehaus.jettison.json.JSONObject;
 
-import com.youtube.dao.SchemaMySQL;
+import com.bofeua.dao.SchemaMySQL;
 
 @Path("/v3/inventory")
 public class V3_inventory {

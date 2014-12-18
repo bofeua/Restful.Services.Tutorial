@@ -1,4 +1,4 @@
-package com.youtube.rest.inventory;
+package com.bofeua.rest.inventory;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,8 +12,8 @@ import javax.ws.rs.core.Response;
 
 import org.codehaus.jettison.json.JSONArray;
 
-import com.youtube.dao.MySQLaccess;
-import com.youtube.util.ToJSON;
+import com.bofeua.dao.MySQLaccess;
+import com.bofeua.util.ToJSON;
 
 /**
  * This class is used to manage computer parts inventory.

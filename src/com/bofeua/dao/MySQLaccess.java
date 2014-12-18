@@ -1,4 +1,4 @@
-package com.youtube.dao;
+package com.bofeua.dao;
 
 import javax.naming.*;
 import javax.sql.*;

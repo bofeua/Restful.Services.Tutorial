@@ -1,10 +1,10 @@
-package com.youtube.dao;
+package com.bofeua.dao;
 
 import java.sql.*;
 
 import org.codehaus.jettison.json.JSONArray;
 
-import com.youtube.util.ToJSON;
+import com.bofeua.util.ToJSON;
 
 /**
  * This java class will hold all the sql queries from episode 5 and onward.

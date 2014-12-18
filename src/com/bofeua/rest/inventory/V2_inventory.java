@@ -1,4 +1,4 @@
-package com.youtube.rest.inventory;
+package com.bofeua.rest.inventory;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.POST;
@@ -13,7 +13,7 @@ import javax.ws.rs.core.Response;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jettison.json.JSONArray;
 
-import com.youtube.dao.SchemaMySQL;
+import com.bofeua.dao.SchemaMySQL;
 
 /**
  * This class is used to manage computer parts inventory. It is a improvement

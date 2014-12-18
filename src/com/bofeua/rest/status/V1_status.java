@@ -1,11 +1,11 @@
-package com.youtube.rest.status;
+package com.bofeua.rest.status;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
 import java.sql.*;
 
-import com.youtube.dao.*;
+import com.bofeua.dao.*;
 
 
 @Path("/v1/status")
